@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://blahec:blahec@styleguideproject-jer46.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
