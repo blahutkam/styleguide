@@ -22,11 +22,11 @@ router.get("/", auth, async (req, res) => {
 });
 
 // @route       POST api/contacts
-// @desc        Get all user contacts
+// @desc        Add new contact
 // @access      Private
 router.post(
   "/",
-  [auth, [check("name", "Name is required").not().isEmpty]],
+  [auth, [check("name", "Name is required").not().isEmpty()]],
   async (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
@@ -51,11 +51,12 @@ router.post(
       console.error(err.message);
       res.status(500).send("Server Error");
     }
+    //res.send("Create contact");
   }
 );
 
-// @route       GET api/contacts/:id
-// @desc        Get all user contacts
+// @route       PUT api/contacts/:id
+// @desc        Update contact
 // @access      Private
 router.put("/:id", (req, res) => {
   res.send("Update contact");

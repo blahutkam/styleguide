@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
 const ContactSchema = mongoose.Schema({
+  //retaionship between user and contacts...each user has his own list of contacts
   user: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "users",
@@ -19,11 +20,7 @@ const ContactSchema = mongoose.Schema({
   },
   type: {
     type: String,
-    defaul: "personal",
-  },
-  password: {
-    type: String,
-    required: true,
+    default: "personal",
   },
   date: {
     type: Date,
