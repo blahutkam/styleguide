@@ -1,13 +1,13 @@
-import React, { Fragment } from 'react';
-import CheckboxEditor from '../../components/CheckboxEditor';
+import React, { Fragment } from "react";
+import CheckboxEditor from "../../components/CheckboxEditor";
 
 const Table = () => {
-    return (
-        <Fragment>
-            <h1>Table</h1>
-            <CheckboxEditor/>
-        </Fragment>
-    );
+  return (
+    <Fragment>
+      <h3>Table</h3>
+      <CheckboxEditor />
+    </Fragment>
+  );
 };
 
-export default Table
+export default Table;

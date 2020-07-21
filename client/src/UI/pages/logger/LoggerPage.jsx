@@ -1,13 +1,13 @@
-import React, { Fragment } from 'react';
-import CheckboxEditor from '../../components/CheckboxEditor';
+import React, { Fragment } from "react";
+import CheckboxEditor from "../../components/CheckboxEditor";
 
 const Logger = () => {
-    return (
-        <Fragment>
-            <h1>IT Logger</h1>
-            <CheckboxEditor/>
-        </Fragment>
-    );
+  return (
+    <Fragment>
+      <h2>IT Logger</h2>
+      <CheckboxEditor />
+    </Fragment>
+  );
 };
 
-export default Logger
+export default Logger;

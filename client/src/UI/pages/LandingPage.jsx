@@ -1,14 +1,11 @@
-import React, {Fragment} from 'react'
-import Search from '../components/users/Search'
-import Users from '../components/users/Users'
+import React, { Fragment } from "react";
 
 const LandingPage = () => {
-    return (
-        <Fragment>
-            <Search />
-            <Users />
-        </Fragment>
-    )
-}
+  return (
+    <Fragment>
+      <h2>landing page</h2>
+    </Fragment>
+  );
+};
 
-export default LandingPage
+export default LandingPage;

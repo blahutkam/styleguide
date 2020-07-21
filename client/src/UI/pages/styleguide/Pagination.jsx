@@ -1,13 +1,13 @@
-import React, { Fragment } from 'react';
-import CheckboxEditor from '../../components/CheckboxEditor';
+import React, { Fragment } from "react";
+import CheckboxEditor from "../../components/CheckboxEditor";
 
 const Pagination = () => {
-    return (
-        <Fragment>
-            <h1>Pagination</h1>
-            <CheckboxEditor/>
-        </Fragment>
-    );
+  return (
+    <Fragment>
+      <h3>Pagination</h3>
+      <CheckboxEditor />
+    </Fragment>
+  );
 };
 
-export default Pagination
+export default Pagination;
